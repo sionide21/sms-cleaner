@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.unshift(File.expand_path(File.join(File.dirname(__FILE__), '..' , 'lib')))
+
+require 'sms/archive'
+
+SIX_MONTHS_AGO = Time.now - 15552000
+
+archive = Sms::Archive.new($<.read)
+archive.messages.select { |m| m.date < SIX_MONTHS_AGO }.each(&:delete!)
+puts archive.to_xml
