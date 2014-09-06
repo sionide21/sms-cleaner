@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--File Created By SMS Backup & Restore v7.13 on 05/09/2014 19:38:57-->
+<?xml-stylesheet type="text/xsl" href="sms.xsl"?>
+<smses count="2">
+  <sms protocol="0" address="+7705557200" date="1409535915637" type="1" subject="null" body="We're outside" toa="0" sc_toa="0" service_center="null" read="1" status="-1" locked="0" date_sent="0" readable_date="Aug 31, 2014 9:45:15 PM" contact_name="George Burdell"/>
+  <sms protocol="0" address="7705557200" date="1409536051255" type="2" subject="null" body="Aight. I'll probably chill at the pulse loft " toa="0" sc_toa="0" service_center="null" read="1" status="-1" locked="0" date_sent="0" readable_date="Aug 31, 2014 9:47:31 PM" contact_name="George Burdell"/>
+</smses>
