@@ -1,4 +1,5 @@
 require 'nokogiri'
+require 'sms/message'
 
 module Sms
   class Archive
